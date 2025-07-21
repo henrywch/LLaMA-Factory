@@ -2,8 +2,8 @@
 # Model Parameters
 # -----------------
 
-model_name_or_path: ../../../models/qwen/qwen2.5-0.5b
-visual_tower: ../../../models/clip/clip-vit-large-patch14-336
+model_name_or_path: /data-mnt/data/chwang/models/Qwen2.5-0.5B
+visual_tower: /data-mnt/data/chwang/models/Clip-ViT-Large-Patch14-336
 template: qwen
 
 # -----------------
@@ -27,7 +27,7 @@ dataset: llava_v1_5_pretrain
 # Output Parameters
 # -------------------
 
-output_dir: ../../checkpoints/qwen2-0.5b-llava-pretrain
+output_dir: checkpoints/qwen2-0.5b-llava-pretrain
 logging_steps: 10
 save_steps: 1000
 report_to: tensorboard
