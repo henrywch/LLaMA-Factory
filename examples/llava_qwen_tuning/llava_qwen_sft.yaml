@@ -2,8 +2,7 @@
 # Model Parameters
 # -----------------
 
-model_name_or_path: ../../../models/qwen/qwen2.5-0.5b
-adapter_name_or_path: ../../checkpoints/qwen2-0.5b-llava-pretrain
+model_name_or_path: /data-mnt/data/chwang/models/Qwen2.5-0.5B
 template: qwen
 
 # -----------------
