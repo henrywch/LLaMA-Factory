@@ -3,5 +3,5 @@ accelerate launch \
     --num_processes=2 \
     --mixed_precision=fp16 \
     --dynamo_backend="no" \
-    --main_process_port=8000 \
+    --main_process_port=30000 \
     $(which llamafactory-cli) train examples/llava_qwen_tuning/llava_qwen_pretrain.yaml

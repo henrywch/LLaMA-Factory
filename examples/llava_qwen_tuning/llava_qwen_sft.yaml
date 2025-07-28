@@ -2,7 +2,7 @@
 # Model Parameters
 # -----------------
 
-model_name_or_path: /data-mnt/data/chwang/models/Qwen2.5-0.5B
+model_name_or_path: /data-mnt/data/chwang/models/Qwen2.5-0.5B-LLaVA-Merged
 template: qwen
 
 # -----------------
@@ -24,7 +24,7 @@ dataset: llava_v1_5_sft
 # Output Parameters
 # -------------------
 
-output_dir: ../../checkpoints/qwen2-0.5b-llava-sft
+output_dir: checkpoints/qwen2-0.5b-llava-sft
 logging_steps: 10
 save_steps: 500
 report_to: tensorboard
@@ -38,5 +38,11 @@ gradient_accumulation_steps: 4
 learning_rate: 2.0e-5
 num_train_epochs: 1.0
 lr_scheduler_type: cosine
+
+# -----------------
+# Optimization Parameters
+# -----------------
+
 fp16: true
+flash_attn: auto
 use_unsloth: false

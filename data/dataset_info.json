@@ -16,6 +16,23 @@
       "assistant_tag": "gpt"
     }
   },
+  "llava_v1_5_sft": {
+    "file_name": "/data-mnt/data/chwang/datasets/llava-v1.5-sft/llava_v1_5_mix665k.json",
+    "images_folder": "/data-mnt/data/chwang/datasets/llava-v1.5-sft",
+    "formatting": "sharegpt",
+    "columns": {
+      "images": "image",
+      "messages": "conversations",
+      "prompt": "",
+      "system": ""
+    },
+    "tags": {
+      "role_tag": "from",
+      "content_tag": "value",
+      "user_tag": "human",
+      "assistant_tag": "gpt"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
